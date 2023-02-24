@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ng15-movies-app/shared/ui/footer": ["shared/ui/footer/src/index.ts"],
+      "@ng15-movies-app/shared/ui/header": ["shared/ui/header/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
